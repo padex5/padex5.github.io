@@ -1,0 +1,8 @@
+google.com, pub-3404406824149247, DIRECT, f08c47fec0942fa0
+unity.com, 2217503, DIRECT, 96cabb5fbdde37a7
+appnexus.com, 12878, reseller, f5ab79cb980f11d1
+appnexus.com, 15349, reseller, f5ab79cb980f11d1
+appnexus.com, 15629, reseller
+appnexus.com, 15980, reseller, f5ab79cb980f11d1
+appnexus.com, 17234, reseller
+appnexus.com, 9382, reseller, f5ab79cb980f11d1
