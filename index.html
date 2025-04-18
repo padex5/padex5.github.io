@@ -3,37 +3,176 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Words Finder - Official Site</title>
+  <title>NowSoft – Mobile App & Game Developer</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      max-width: 800px;
-      margin: auto;
-      padding: 40px;
-      background-color: #f9f9f9;
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f9f9f9;
       color: #333;
     }
-    h1 {
-      color: #4A90E2;
+
+    header {
+      background-color: #0077ff;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
     }
-    a {
-      color: #4A90E2;
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+
+    .content {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .btn-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin: 30px 0;
+    }
+
+    .store-button {
+      padding: 14px 25px;
+      background-color: #0077ff;
+      color: white;
+      border: none;
+      border-radius: 6px;
       text-decoration: none;
+      font-weight: bold;
+      font-size: 1em;
+      transition: background-color 0.2s ease;
+    }
+
+    .apps {
+      padding: 0px 20px;
+      text-align: center;
+    }
+
+    .apps h2 {
+      font-size: 2em;
+      margin-bottom: 30px;
+    }
+
+    .app-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+    }
+
+    .app-card {
+      background-color: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      max-width: 300px;
+    }
+
+    .app-card img.app-logo {
+      width: 100%;
+      max-height: 200px;
+      border-radius: 10px;
+      object-fit: contain;
+      margin-bottom: 15px;
+    }
+
+    .store-button:hover {
+      background-color: #005fcc;
+    }
+
+    .store-buttons img {
+      height: 50px;
+      margin: 5px;
+    }
+
+    .about {
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #777;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      .app-card {
+        max-width: 90%;
+      }
     }
   </style>
 </head>
 <body>
-  <h1>Words Finder - Official Game Page</h1>
-  <p><strong>Welcome to the official site of Words Finder.</strong></p>
-  <p>This is a relaxing and brain-training mobile word puzzle game available on both Android and iOS.</p>
 
-  <h2>Important Links</h2>
-  <ul>
-    <li><a href="https://sites.google.com/view/wordsfinderapp/privacy-policy" target="_blank">Privacy Policy</a></li>
-    <li><a href="/app-ads.txt" target="_blank">app-ads.txt</a></li>
-  </ul>
+<header>
+  <h1>NowSoft</h1>
+  <p>We create functional and engaging mobile apps & games for Android & iOS</p>
+</header>
 
-  <h2>About the Developer</h2>
-  <p>Created by a passionate indie developer who loves language games and puzzle challenges.</p>
+<div class="content">
+<section class="apps">
+  <h2>About NowSoft</h2>
+	  <div class="about">
+		<p>NowSoft is a creative mobile development studio focused on building high-quality apps and games that are fun, intuitive, and useful. With a passion for simplicity and innovation, we deliver experiences that improve everyday life and entertain users around the world.</p>
+	  </div>
+  </section>
+
+  <section class="apps">
+    <h2>Our Apps</h2>
+    <div class="app-list">
+
+      <!-- Words Finder -->
+      <div class="app-card">
+        <img class="app-logo" src="https://play-lh.googleusercontent.com/4nrA_7BveWhgVIhjg9Re4ES08nJSZgaAyGGFgvWV9SiywgnVYqGBO0jwWEdVsCweOU4=w480-h960-rw" alt="Words Finder">
+        <h3>Words Finder</h3>
+        <p>An addictive word puzzle game full of challenges and creativity.</p>
+        <div class="store-buttons">
+          <a href="https://play.google.com/store/apps/details?id=com.NowSoft.WordsFinder" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play">
+          </a>
+          <a href="https://apps.apple.com/us/app/words-finder-find-words/id6504881734" target="_blank">
+            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store">
+          </a>
+        </div>
+      </div>
+
+      <!-- ItemsBrary -->
+      <div class="app-card">
+        <img class="app-logo" src="https://play-lh.googleusercontent.com/UVnUadaG5e8DYMdVTbaLSPNgGoI1vKa8TIdST1z_KuIin3urXTdMm40HqtdBj80P_vlo=w480-h960-rw" alt="ItemsBrary">
+        <h3>Itemsbrary</h3>
+        <p>Your personal item tracker – catalog and manage everything you own with ease.</p>
+        <div class="store-buttons">
+          <a href="https://play.google.com/store/apps/details?id=com.itemsbrary.android" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play">
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</div>
+
+<footer>
+  &copy; 2025 NowSoft. All rights reserved.
+</footer>
+
 </body>
 </html>
