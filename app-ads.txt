@@ -1,3 +1,6 @@
+ownerdomain=padex5.github.io
+
+
 google.com, pub-3404406824149247, DIRECT, f08c47fec0942fa0
 
 bidease.com, bidease_seller_20, reseller
